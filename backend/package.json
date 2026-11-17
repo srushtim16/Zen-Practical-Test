@@ -1,0 +1,30 @@
+{
+  "name": "zen-practical-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Zen Practical Test",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "migrate": "node src/scripts/runMigrations.js",
+    "seed": "node src/scripts/runSeeders.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "sequelize",
+    "invoice"
+  ],
+  "author": "Srushti Modi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
