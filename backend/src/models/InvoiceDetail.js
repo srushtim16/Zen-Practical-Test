@@ -59,3 +59,4 @@ const InvoiceDetail = sequelize.define('Invoice_Detail', {
 });
 
 module.exports = InvoiceDetail;
+

@@ -26,3 +26,4 @@ const ProductMaster = sequelize.define('Product_Master', {
 });
 
 module.exports = ProductMaster;
+

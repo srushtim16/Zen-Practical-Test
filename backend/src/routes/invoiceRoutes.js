@@ -7,3 +7,4 @@ router.get('/', invoiceController.getAllInvoices);
 router.post('/', invoiceController.createInvoice);
 
 module.exports = router;
+

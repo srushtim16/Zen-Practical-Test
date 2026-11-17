@@ -33,3 +33,4 @@ const InvoiceMaster = sequelize.define('Invoice_Master', {
 });
 
 module.exports = InvoiceMaster;
+

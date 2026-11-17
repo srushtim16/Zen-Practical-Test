@@ -43,3 +43,4 @@ exports.getProductById = async (req, res) => {
     });
   }
 };
+

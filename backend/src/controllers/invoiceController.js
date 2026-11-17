@@ -1,6 +1,6 @@
 const { sequelize, InvoiceMaster, InvoiceDetail, ProductMaster } = require('../models');
 
-// Get the next invoice number (Last Invoice No + 1)
+// Get the next invoice number
 exports.getNextInvoiceNo = async (req, res) => {
   try {
     const lastInvoice = await InvoiceMaster.findOne({
@@ -219,3 +219,4 @@ exports.getAllInvoices = async (req, res) => {
     });
   }
 };
+

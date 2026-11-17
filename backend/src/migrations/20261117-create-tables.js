@@ -144,3 +144,4 @@ module.exports = {
     await queryInterface.dropTable('Product_Master');
   }
 };
+
